@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <title>myportfolio</title>
+  <style>
+  *{
+  margin :0;
+    padding:0;
+  outline:0;
+    text-decoration:none;
+  }
+  h1{
+    color:red;
+    font-size:90px;
+    margin-bottom:60px;
+  }
+  body {
+   background-color:black;
+  }
+  nav{
+   background-color:black;
+    display:flex; 
+    gap:2rem;
+    position :fixed ;
+    z-index:1;
+ 
+    width:100%;
+  
+    
+  }
+   li{
+  float:left; 
+     font-size:53px;
+    margin-top:2%;
+     padding:0 34px;
+   }
+  li a{
+    color:white; 
+    font-weight:500;
+    border-bottom:none;
+    
+  }
+  li a:hover {
+    border-bottom:2px solid white;
+  border-radius:6px;}
+   ul{
+     list-style-type:none;
+  }
+  p{
+    color:white;
+    padding:50px;
+    font-size:50px;
+  }
+  img{
+  border-radius:50rem;
+    object-fit:cover ;
+    margin:15%;
+    margin-top:34%;
+    position:relative ; 
+    box-shadow :0 0 50px brown ,0 0 50px brown;
+    animation :float 3s ease-in-out infinite, glow-border 3s infinite alternate;
+   
+  }
+  @keyframes float {
+    0%, 100%{transform:translateY(0);}
+    50%{ transform:translateY(-20px)}}
+  .image {
+    background-color:black;
+    border:2px solid black;
+    border-radius:24px;
+    margin-left:9px;
+    position: relative;
+    box-shadow:0 0 50px brown ,0 0 50px brown;
+    animation:float 3s ease-in-out infinite ,glow-border 3s infinite alternate ;
+  }
+  @keyframes float{
+    0% ,100%{transform:translateY(0);}
+    50%{ transform:translateY(-20px)}
+  }
+  h2{
+    font-size:90px;
+    text-align:center;
+    padding-top:90px;
+    color:red;
+  }
+.qual{
+  margin-left:10px;
+  border-radius:24px;
+    margin-top:190px;
+   box-shadow:0 0 50px brown ,0 0 50px brown;
+    animation:float 3s ease-in-out infinite ,glow-border 3s infinite alternate ;
+  }
+  @keyframes float{
+    0% ,100%{transform:translateY(0);}
+    50%{ transform:translateY(-20px)}
+  }
+  .what{
+    margin-top:100px;
+    font-size:90px;
+    margin-left:10px;
+    text-align:center;
+    margin-top:30px;
+    border-radius:30px;
+     box-shadow:0 0 50px brown ,0 0 50px brown;
+    animation:float 3s ease-in-out infinite ,glow-border 3s infinite alternate ;
+  }
+  @keyframes float{
+    0% ,100%{transform:translateY(0);}
+    50%{ transform:translateY(-20px)}
+  }
+ h3{
+   text-align :center ;
+   font-size:90px;
+   margin-top:40%;
+ }
+  .footer{
+  text-align:center;
+    padding:0;
+    margin:0;
+  }
+  .footer a{
+    color:red;
+    font-size:60px;
+  }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1 style="margin:0;">NSI</h1>
+    <ul>
+  <li><a href="pfnsi.html">HOME</a></li>
+  <li><a href="#2"> ABOUT</a></li>    
+ <li><a href="#3">CONTACT</a></li>
+    </ul>
+  </nav>
+  
+      <img src="img.jpg" alt="nice pic" width="700" height="700" opacity="0.2";> </img>
+        <h1 style="text-align: center; padding-bottom:20px;" >FRONT-END DEVELOPER </h1>
+  <h1 id="2" style="text-align:center; margin-top:20%;"> ABOUT</h1>
+  <div class="image">
+      <p>Hi,my name is <strong>Princewill Ibanga.<br>
+      </strong>  I am a front-end developer,and currently learning backend courses.
+        <br>
+        i am also a student and i am looking forward to working and creating mutual relationships with my clients .
+      </p>
+      </div>
+    
+      <h2>QUALITIES</h2>
+  <div class="qual">
+      <p>Possess skills to build efficient websites using front-end(HTML,CSS and javaScript).
+        <br><br>Use of designs attractive to clients and their costumers.  </p>
+    </div>
+  
+    <h3 style="color:red">WHAT TO  EXPECT??</h3>
+  <div class="what" style="margin-bottom:30%;">
+    <p style="padding-top:6%";>Well!!!,expect marvellous designs on your website with breath-taking features.  </p>
+  </div>
+  <div class="footer" id="3">
+    <a href="mailto:ibangawill@gmail.com";> SEND EMAIL?</a>
+    <p><a href="" ><i class="fa-brands fa-square-linkedin fa-3x" style="color:red"></i>
+    </a>
+     <a href="https://www.instagram.com/ibangaprincewill?igsh=MWRqdnRsdGx1c2hpbw=="> <i class="fa-brands fa-square-instagram fa-3x"style="color:red" ></i>
+       
+     </a>
+      
+    </p>
+    </div>
+</body>
+</html>
